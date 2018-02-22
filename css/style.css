@@ -1,0 +1,124 @@
+/*noinspection ALL*/
+.body {
+
+    padding-top: 50px;
+    background: #EDF2F5;
+    overflow: auto;
+}
+
+/*noinspection ALL*/
+.bg-blue {
+    background-color: #3f3f63;
+
+}
+
+/*noinspection ALL*/
+.btn-green {
+    color: white;
+    background-color: green;
+
+}
+
+/*noinspection ALL*/
+.btn-green:hover, .btn-green:focus {
+    color: white;
+    background-color: red;
+}
+
+/*sidebar*/
+/*noinspection ALL*/
+.sidebar {
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    padding: 0;
+    background-color: #3F3F63;
+    overflow: auto;
+
+}
+
+/*sidebar-header*/
+
+/*noinspection ALL*/
+.sidebar > div:first-child {
+    padding: 30px 10px;
+    font-weight: bold;
+    font-size: 15;
+    background-color: #383957;
+
+}
+
+/*noinspection ALL*/
+.sidebar > div:first-child > h4 {
+
+    color: #e0deeb;
+}
+
+/*noinspection ALL*/
+.sidebar > div:first-child > h5 {
+    color: #b6b4c1;
+
+}
+
+/*noinspection ALL*/
+.sidebar .list-group {
+
+    padding: 0;
+    background: #3f3f63;
+}
+
+/*noinspection ALL*/
+.sidebar .list-group > span {
+
+    color: #b6b4c1;
+    display: block;
+    margin-top: 20px;
+    padding: 20px 30px;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+/*noinspection ALL*/
+.sidebar .list-group .list-group-item,
+.sidebar .list-group .list-group-item:focus {
+    background-color: #3F3F63;
+    color: #b6b4c1;
+    border: 0;
+    padding-left: 60px;
+    padding-right: 30px;
+
+}
+
+/*noinspection ALL*/
+.sidebar .list-group .list-group-item.active,
+.sidebar .list-group .list-group-item:hover {
+    background-color: #383957;
+    color: #e0deeb;
+}
+
+.sidebar .list-group .list-group-item:first-child {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+/*noinspection ALL*/
+.sidebar .list-group .list-group-item .badge,
+.sidebar .list-group .list-group-item.active .badge {
+    background-color: #EE5462;
+    color: #e0deeb;
+}
+
+/*sidebar logout*/
+
+.sidebar > div:last-child {
+    padding: 30px;
+}
+
+.sidebar > div:last-child.btn {
+    width: 200px;
+}
+
+.content {
+    padding: 0 40px;
+}
